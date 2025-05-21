@@ -98,6 +98,7 @@
 
   <platform name="ios">
     <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 10.23.0"/>
+    <preference name="SWIFT_VERSION" value="5.0" />
 
     <config-file target="config.xml" parent="/*">
       <feature name="PushNotification">
